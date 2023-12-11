@@ -1,0 +1,9 @@
+.site-header{
+    display: flex;
+}
+.navbar-logo{
+    flex: 1 1 auto;
+}
+.navbar-toggle{
+    flex: 1 1 auto;
+}

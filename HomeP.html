@@ -9,13 +9,19 @@
         <script src = "https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
         <link rel = "stylesheet" href = "https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
         <link rel = "stylesheet" href = "https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel = "stylesheet" href = "styles.css">
     </head>
     <body>
         <header class = "site-header">
-            <a class = "navbar-logo" href = "#">
-                <img src = "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.indykorea.com%2F&psig=AOvVaw3a8M_-bQ7huVUhJFG-DzBY&ust=1702347443193000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCMCUuceohoMDFQAAAAAdAAAAABAD" alt = "Indykorea logo" height = "40px">
-                <b>Indykorea</b>
-            </a>
+            <nav class = "navbar navbar-expand-lg navbar-light bg-light p-1">
+                <a class = "navbar-logo" href = "#">
+                    <img src = "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.indykorea.com%2F&psig=AOvVaw3a8M_-bQ7huVUhJFG-DzBY&ust=1702347443193000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCMCUuceohoMDFQAAAAAdAAAAABAD" alt = "Indykorea logo" height = "40px">
+                    <b>Indykorea</b>
+                </a>
+                <button class = "navbar-toggle" type = "button" data-toggle = "collapse" data-target = "#mainNavBar" 
+            aria-controls = "mainNavBar" aria-expanded = "false" aria-label = "Toggle navigation" style = "object-position: right">
+                    <span class = "navbar-toggler-icon"></span>
+                </button>
             <div class = "collapse" id = "mainNavBar">
                 <ul class = "navbar-nav mr-auto">
                     <li class = "nav-item item">
@@ -29,11 +35,7 @@
                     </li>
                 </ul>
             </div>
-            <nav class = "navbar navbar-expand-lg navbar-light bg-light p-1">
-                <button class = "navbar-toggle" type = "button" data-toggle = "collapse" data-target = "#mainNavBar" 
-            aria-controls = "mainNavBar" aria-expanded = "false" aria-label = "Toggle navigation">
-                    <span class = "navbar-toggler-icon"></span>
-                </button>
+            
             </div>
             </nav>
         </header>
