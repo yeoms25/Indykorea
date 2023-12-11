@@ -1,9 +1,27 @@
+.site {
+    display: flex;
+    flex-direction: column;
+        position: fixed;
+        overflow-y: scroll;
+        padding: 0;
+        margin: 0;
+            width:100%;        
+            max-width: 2000px;
+    
+      
+}
 .site-header{
     display: flex;
+    width: 100%;
 }
 .navbar-logo{
-    flex: 1 1 auto;
+    align-self: auto;
+    flex-grow: 0.1;
+}
+.navbar-name{
+    flex-grow: 20;
 }
 .navbar-toggle{
-    flex: 1 1 auto;
+    
+    flex-grow: 0.1;
 }
