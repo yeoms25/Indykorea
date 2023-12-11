@@ -1,27 +1,31 @@
 .site {
     display: flex;
     flex-direction: column;
-        position: fixed;
-        overflow-y: scroll;
-        padding: 0;
-        margin: 0;
-            width:100%;        
-            max-width: 2000px;
-    
-      
+    position: fixed;
+    overflow-y: scroll;
+    padding: 0;
+    margin: 0;
+    width:100%;        
+    max-width: 2000px;
 }
 .site-header{
     display: flex;
     width: 100%;
+    padding: 10px;
+    background-color:rgb(244, 244, 244);
 }
 .navbar-logo{
-    align-self: auto;
-    flex-grow: 0.1;
+    align-self: center;
+    padding-left: 15px;
+    max-width: 100px;
+    max-height: 100px;
 }
 .navbar-name{
     flex-grow: 20;
+    align-self: center;
+    font-size: larger;
+    padding-left: 100px;
 }
-.navbar-toggle{
-    
-    flex-grow: 0.1;
+li{
+    display: inline;
 }
