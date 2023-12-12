@@ -23,7 +23,7 @@
 .navbar-name{
     flex-grow: 20;
     align-self: center;
-    font-size: larger;
+    font-size: 30px;
     padding-left: 100px;
 }
 li{
